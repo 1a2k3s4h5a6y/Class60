@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    margin:0;
+    padding-top:600px;
+}
+.bye {
+    border-radius: 50%;
+}
+#hi{
+    position: absolute;
+    bottom:0;
+    display:table;
+width:100%;
+height:800px ;
+background: linear-gradient(#1bde52 20%,#219c43 80%);
+z-index: 9;
+
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight : 300;
+
+}
+#goodbye {
+    font-size: 30px;
+    font-family: 'Bungee Shade', cursive;
+    
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+#dragon{
+font-family: cursive;
+padding: 50px ;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.hello{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    position: fixed;
+    list-style: none;
+    z-index:10;
+    top:0px;
+    cursor:pointer;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 0px;
+    
+    
+}
+.links{
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#WRITING a {
+    text-decoration: underline !important;
+    color: rgb(16, 16, 222) !important;
+}
+#CONTACT h3 {
+display:inline;
+}
